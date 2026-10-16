@@ -67,7 +67,10 @@ const MarcAuthorities = ({
           readParamsFromUrl
         >
           <MarcAuthoritiesAppContext />
-          <KeyShortCutsWrapper focusSearchField={focusSearchField}>
+          <KeyShortCutsWrapper
+            focusSearchField={focusSearchField}
+            onPrint={() => window.print()}
+          >
             <AuthorityTitleManager>
               <Switch>
                 <Route path={`${path}/quick-marc/create-authority`} component={CreateMarcAuthorityRoute} />

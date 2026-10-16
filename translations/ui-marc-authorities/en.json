@@ -62,6 +62,7 @@
   "shortcut.find": "Find",
   "shortcut.nextSubfield": "quickMARC only: Move to the next subfield in a text box",
   "shortcut.prevSubfield": "quickMARC only: Move to the previous subfield in a text box",
+  "shortcut.printResultsListOrRecord": "Print results list or record",
 
   "delete.buttonLabel": "Delete",
   "delete.label": "Confirm deletion of authority record",

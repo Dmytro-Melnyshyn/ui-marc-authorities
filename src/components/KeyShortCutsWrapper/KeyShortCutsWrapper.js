@@ -14,12 +14,14 @@ const propTypes = {
   children: PropTypes.node.isRequired,
   focusSearchField: PropTypes.func,
   onEdit: PropTypes.func,
+  onPrint: PropTypes.func,
 };
 
 const KeyShortCutsWrapper = ({
   children,
   canEdit = false,
   onEdit = null,
+  onPrint = null,
   focusSearchField = null,
 }) => {
   const openEditEntity = useCallback(() => {
@@ -42,6 +44,16 @@ const KeyShortCutsWrapper = ({
     },
   ];
 
+  const printShortcuts = [
+    {
+      name: 'print',
+      handler: event => {
+        event.preventDefault();
+        onPrint();
+      },
+    },
+  ];
+
   const shortcuts = useMemo(() => {
     let shortcutsArray = [];
 
@@ -53,9 +65,13 @@ const KeyShortCutsWrapper = ({
       shortcutsArray = [...shortcutsArray, ...searchShortcuts];
     }
 
+    if (onPrint) {
+      shortcutsArray = [...shortcutsArray, ...printShortcuts];
+    }
+
     return shortcutsArray;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [onEdit, focusSearchField]);
+  }, [onEdit, focusSearchField, onPrint]);
 
   return (
     <HasCommand

@@ -103,6 +103,7 @@
     "documentTitle.record": "استناد مارك - {headingRef}",
     "shortcut.nextSubfield": "مارك السريع فقط: الانتقال إلى الحقل الفرعي التالي في مربع النص",
     "shortcut.prevSubfield": "مارك السريع فقط: الانتقال إلى الحقل الفرعي السابق في مربع النص",
+    "shortcut.printResultsListOrRecord": "Print results list or record",
     "authority-record.export": "تصدير (مارك)",
     "goBack": "رجوع",
     "permission.settings.version-history.view": "الإعدادات (استناد مارك): تهيئة سجل الإصدار",

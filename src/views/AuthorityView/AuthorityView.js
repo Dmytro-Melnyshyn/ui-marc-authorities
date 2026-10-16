@@ -244,6 +244,7 @@ const AuthorityView = ({
   return (
     <KeyShortCutsWrapper
       onEdit={redirectToQuickMarcEditPage}
+      onPrint={stripes.hasPerm('ui-marc-authorities.authority-record.view') ? openPrintPopup : null}
       canEdit={hasEditPermission()}
     >
       <MarcView
