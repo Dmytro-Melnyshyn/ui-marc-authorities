@@ -103,6 +103,7 @@
     "documentTitle.record": "MARC 權威 - {headingRef}",
     "shortcut.nextSubfield": "僅限 quickMARC : 移至文字方塊中的下一個子欄位",
     "shortcut.prevSubfield": "僅限 quickMARC : 移至文字方塊中的上一個子欄位",
+    "shortcut.print": "Print results list or record",
     "authority-record.export": "匯出 ( MARC )",
     "goBack": "Go back",
     "permission.settings.version-history.view": "Settings (MARC authority): Configure version history",

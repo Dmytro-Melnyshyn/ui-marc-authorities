@@ -103,6 +103,7 @@
     "documentTitle.record": "MARC authority - {headingRef}",
     "shortcut.nextSubfield": "sólo quickMARC: Pasar al siguiente subcampo en un cuadro de texto",
     "shortcut.prevSubfield": "Solo QuickMARC: ir al subcampo anterior en un cuadro de texto.",
+    "shortcut.print": "Print results list or record",
     "authority-record.export": "Export (MARC)",
     "goBack": "Go back",
     "permission.settings.version-history.view": "Settings (MARC authority): Configure version history",

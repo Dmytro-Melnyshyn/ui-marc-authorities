@@ -103,6 +103,7 @@
     "documentTitle.record": "MARC Otorite - {headingRef}",
     "shortcut.nextSubfield": "Yalnızca quickMARC: Metin kutusunda bir sonraki alt alana geçme",
     "shortcut.prevSubfield": "Yalnızca quickMARC: Metin kutusunda bir önceki alt alana geçme",
+    "shortcut.print": "Print results list or record",
     "authority-record.export": "Dışa Aktar (MARC)",
     "goBack": "Geri dön",
     "permission.settings.version-history.view": "Ayarlar (MARC Otorite): Sürüm geçmişini yapılandırma",

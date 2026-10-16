@@ -103,6 +103,7 @@
     "documentTitle.record": "Авторитетні дані MARC - {headingRef}",
     "shortcut.nextSubfield": "Тільки quickMARC: Перейти до наступного підполя в текстовому полі",
     "shortcut.prevSubfield": "Тільки quickMARC: Перехід до попереднього підполя в текстовому полі",
+    "shortcut.print": "Print results list or record",
     "authority-record.export": "Експорт (MARC)",
     "goBack": "Назад",
     "permission.settings.version-history.view": "Налаштування (MARC для авторитетних даних): Налаштування історії версій",

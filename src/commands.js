@@ -34,6 +34,11 @@ const commands = [
     name: 'PREV_SUBFIELD',
     shortcut: 'Ctrl + [',
   },
+  {
+    label: (<FormattedMessage id="ui-marc-authorities.shortcut.print" />),
+    name: 'print',
+    shortcut: 'mod+p',
+  },
 ];
 
 export default commands;

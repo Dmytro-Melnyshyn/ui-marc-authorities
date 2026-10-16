@@ -103,6 +103,7 @@
     "documentTitle.record": "MARC autoritatīvie ieraksti - {headingRef}",
     "shortcut.nextSubfield": "Tikai quickMARC: Pārvietoties tekstlodziņā uz nākamo apakšlauku",
     "shortcut.prevSubfield": "Tikai quickMARC: Pārvietoties tekstlodziņā uz iepriekšējo apakšlauku",
+    "shortcut.print": "Print results list or record",
     "authority-record.export": "Eksportēt (MARC)",
     "goBack": "Atpakaļ",
     "permission.settings.version-history.view": "Iestatījumi (MARC autoritatīvie ieraksti): Konfigurēt versiju vēsturi",

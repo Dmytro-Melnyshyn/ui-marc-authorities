@@ -245,6 +245,7 @@ const AuthorityView = ({
     <KeyShortCutsWrapper
       onEdit={redirectToQuickMarcEditPage}
       canEdit={hasEditPermission()}
+      onPrint={openPrintPopup}
     >
       <MarcView
         paneWidth="40%"

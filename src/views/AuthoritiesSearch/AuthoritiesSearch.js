@@ -71,6 +71,7 @@ import { useHighlightEditedRecord } from '@folio/stripes-authority-components/li
 
 import { ReportsMenu } from './ReportsMenu';
 import { ReportsModal } from './ReportsModal/ReportsModal';
+import { ResultsListPrintPopup } from '../../components';
 import { useExportReport } from '../../queries';
 import {
   useAuthorityExport,
@@ -159,6 +160,7 @@ const AuthoritiesSearch = ({
   const [storedFilterPaneVisibility] = useLocalStorage(filterPaneVisibilityKey, true);
   const [isFilterPaneVisible, setIsFilterPaneVisible] = useState(storedFilterPaneVisibility);
   const [reportsModalOpen, setReportsModalOpen] = useState(false);
+  const [isShownPrintPopup, setIsShownPrintPopup] = useState(false);
   const selectedReport = useRef(null);
   const [isUUIDsExportInProgress, setIsUUIDsExportInProgress] = useState(false);
   const authorityUUIDsReportGenerator = useReportGenerator('SearchAuthorityUUIDs');
@@ -183,6 +185,10 @@ const AuthoritiesSearch = ({
           history.push(createAuthorityRoute);
         }
       },
+    },
+    {
+      name: 'print',
+      handler: () => setIsShownPrintPopup(true),
     },
   ];
 
@@ -753,6 +759,13 @@ const AuthoritiesSearch = ({
           onClose={() => setReportsModalOpen(false)}
           onSubmit={handleReportsSubmit}
         />
+        {isShownPrintPopup && (
+          <ResultsListPrintPopup
+            authorities={authorities}
+            visibleColumns={visibleColumns}
+            onAfterPrint={() => setIsShownPrintPopup(false)}
+          />
+        )}
       </PersistedPaneset>
     </HasCommand>
   );

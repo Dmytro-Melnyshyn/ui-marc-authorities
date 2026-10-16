@@ -103,6 +103,7 @@
     "documentTitle.record": "MARC-Normdaten - {headingRef}",
     "shortcut.nextSubfield": "Nur quickMARC: Zum nächsten Unterfeld in einem Textfeld wechseln",
     "shortcut.prevSubfield": "Nur quickMARC: Zum vorherigen Unterfeld in einem Textfeld wechseln",
+    "shortcut.print": "Print results list or record",
     "authority-record.export": "Exportieren (MARC)",
     "goBack": "Zurück",
     "permission.settings.version-history.view": "Einstellungen (MARC Normdaten): Versionsgeschichte konfigurieren",
