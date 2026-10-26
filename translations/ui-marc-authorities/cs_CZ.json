@@ -103,7 +103,6 @@
     "documentTitle.record": "MARC autorita – {headingRef}",
     "shortcut.nextSubfield": "pouze quickMARC: Přesun na další podpole v textovém poli",
     "shortcut.prevSubfield": "pouze quickMARC: Přesun na předchozí podpole v textovém poli",
-    "shortcut.print": "Print results list or record",
     "authority-record.export": "Exportovat (MARC)",
     "goBack": "Vrátit se zpět",
     "permission.settings.version-history.view": "Nastavení (autorita MARC): Konfigurace historie verzí",

@@ -103,7 +103,6 @@
     "documentTitle.record": "MARC Authority - {headingRef}",
     "shortcut.nextSubfield": "Alleen QuickMARC: Naar het volgende subveld in een tekstvak gaan",
     "shortcut.prevSubfield": "Alleen QuickMARC: Naar het vorige subveld in een tekstvak gaan",
-    "shortcut.print": "Print results list or record",
     "authority-record.export": "Exporteren (MARC)",
     "goBack": "Ga terug",
     "permission.settings.version-history.view": "Instellingen (Auteur): Versiegeschiedenis configureren",

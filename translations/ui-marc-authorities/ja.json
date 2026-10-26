@@ -103,7 +103,6 @@
     "documentTitle.record": "MARC authority - {headingRef}",
     "shortcut.nextSubfield": "quickMARC only: Move to the next subfield in a text box",
     "shortcut.prevSubfield": "quickMARC only: Move to the previous subfield in a text box",
-    "shortcut.print": "Print results list or record",
     "authority-record.export": "エクスポート (MARC)",
     "goBack": "戻る",
     "permission.settings.version-history.view": "Settings (MARC authority): Configure version history",

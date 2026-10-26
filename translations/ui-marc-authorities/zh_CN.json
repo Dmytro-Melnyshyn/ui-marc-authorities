@@ -103,7 +103,6 @@
     "documentTitle.record": "MARC规范 - {headingRef}",
     "shortcut.nextSubfield": "仅限 quickMARC : 移动到文本框中的下一个子字段",
     "shortcut.prevSubfield": "仅限 quickMARC : 移动到文本框中的上一个子字段",
-    "shortcut.print": "Print results list or record",
     "authority-record.export": "导出 : MARC ) ",
     "goBack": "返回",
     "permission.settings.version-history.view": "设置（MARC规范）：配置版本历史",
